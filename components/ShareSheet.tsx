@@ -76,7 +76,7 @@ export function ShareSheet({ isOpen, onClose, incidentData }: ShareSheetProps) {
             <span>{copied ? 'Copied!' : 'Copy Link'}</span>
           </button>
 
-          {navigator.share && (
+          {typeof navigator !== 'undefined' && 'share' in navigator && (
             <button
               onClick={shareNative}
               className="w-full flex items-center justify-center space-x-2 btn-primary"

@@ -8,26 +8,32 @@
   }
   
   body {
-    @apply bg-bg text-text-primary;
+    background-color: hsl(220, 24%, 12%);
+    color: hsl(220, 14%, 90%);
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
 
 @layer components {
   .glass-card {
-    @apply bg-surface bg-opacity-80 backdrop-blur-sm border border-gray-700 rounded-lg shadow-card;
+    background-color: hsla(220, 24%, 18%, 0.8);
+    @apply backdrop-blur-sm border border-gray-700 rounded-lg;
+    box-shadow: 0 4px 12px hsla(0, 0%, 0%, 0.15);
   }
   
   .btn-primary {
-    @apply bg-gradient-to-r from-primary to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl;
+    @apply bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl;
   }
   
   .btn-secondary {
-    @apply bg-surface text-text-primary px-6 py-3 rounded-lg font-medium hover:bg-gray-700 transition-all duration-200 border border-gray-600;
+    background-color: hsl(220, 24%, 18%);
+    color: hsl(220, 14%, 90%);
+    @apply px-6 py-3 rounded-lg font-medium hover:bg-gray-700 transition-all duration-200 border border-gray-600;
   }
   
   .btn-accent {
-    @apply bg-accent text-white px-6 py-3 rounded-lg font-medium hover:bg-green-600 transition-all duration-200 shadow-lg hover:shadow-xl;
+    background-color: hsl(140, 34%, 52%);
+    @apply text-white px-6 py-3 rounded-lg font-medium hover:bg-green-600 transition-all duration-200 shadow-lg hover:shadow-xl;
   }
   
   .recording-pulse {
