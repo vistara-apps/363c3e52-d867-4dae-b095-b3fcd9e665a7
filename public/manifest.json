@@ -1,0 +1,14 @@
+{
+  "name": "CitizenShield",
+  "description": "CitizenShield is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://363c3e52-d867-4dae-b095-b3fcd9e665a7.vercel.app",
+  "properties": {
+    "app": {
+      "name": "CitizenShield",
+      "description": "CitizenShield is a Base Mini App built with Zara.",
+      "url": "https://363c3e52-d867-4dae-b095-b3fcd9e665a7.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}

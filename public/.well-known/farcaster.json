@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "CitizenShield",
+    "subtitle": "Built with Zara",
+    "description": "CitizenShield is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://363c3e52d8674daeb095b3fcd9e665a7-4cgc.vercel.app",
+    "splashImageUrl": "https://363c3e52d8674daeb095b3fcd9e665a7-4cgc.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://363c3e52d8674daeb095b3fcd9e665a7-4cgc.vercel.app/image.png",
+    "tagline": "CitizenShield",
+    "screenshotUrls": [
+      "https://363c3e52d8674daeb095b3fcd9e665a7-4cgc.vercel.app/screenshot.png",
+      "https://363c3e52d8674daeb095b3fcd9e665a7-4cgc.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://363c3e52d8674daeb095b3fcd9e665a7-4cgc.vercel.app/api/webhook"
+  }
+}
